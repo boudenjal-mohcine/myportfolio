@@ -13,12 +13,14 @@ export default function About() {
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Hi<span role="img" aria-label="hi">👋</span>, I'm <b>Mohcine</b>  <b style={lastNameStyle}>Boudenjal</b>.
-            <span className="text-3xl"><br className="hidden lg:inline-block" />Building useful and amazing apps<span role="img" aria-label="smile">💻</span>...That's my job<span role="img" aria-label="smile">😄</span></span>
+            Hi<span role="img" aria-label="hi">👋</span>, I'm <b>Mohcine</b>  <b style={lastNameStyle}>Boudenjal </b>
+            <span className="sm:text-4xl text-3xl"><br className="hidden lg:inline-block" />Building useful and amazing apps<span role="img" aria-label="smile">💻</span>...That's my job<span role="img" aria-label="smile">😄</span></span>
           </h1>
           <p className="mb-8 leading-relaxed">
-            My name is Mohcine Boudenjal, From Casablanca Morocco. Im 21 years old and i'm a Software nd Smart systems Engineering Student
-            at FST Tangier. I am very passionate about development web and mobile apps.
+            My name is Mohcine Boudenjal, From Casablanca Morocco. Im 21 years old and I'm a Software and Smart Systems Engineering student
+            at FST Tangier. I am very passionate about development web, mobile apps and some scripting.
+            <br/>
+           Just setting in front of my Laptop make me  <b style={lastNameStyle}>happy</b>.
           </p>
           <div className="flex justify-center">
             <a
