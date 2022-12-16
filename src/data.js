@@ -58,3 +58,56 @@ export const skills = [
   "GraphQL",
   "Material UI",
 ];
+
+export const languages = [
+  "JavaScript",
+  "C/C++",
+  "Dart",
+  "Python",
+  "PHP",
+  "Bash",
+  "JAVA",
+];
+
+
+export const frontEnd =[
+
+  "React",
+  "Bootstrap",
+  "TailwindCSS",
+  "Flutter",
+  "JQuery"
+
+
+]
+
+export const backEnd=[
+
+  "Laravel",
+  "Django",
+
+]
+
+
+export const desktop =[
+
+  "Qt C++",
+  "Java Swing",
+
+]
+
+
+export const database=[
+
+  'MySQL',
+  'PostgreSQL',
+
+]
+
+export const cicd=[
+
+  'git',
+  'jenkins',
+  'terraform',
+
+]
