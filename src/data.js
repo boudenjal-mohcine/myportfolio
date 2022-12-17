@@ -110,4 +110,75 @@ export const cicd=[
   'jenkins',
   'terraform',
 
+];
+
+
+
+export const certifications=[
+{
+  id:1,
+  title:"Django",
+  description:"I taked this formation to know the powerful of python at backend side, Django it's one of frameworks python used in web developement",
+  img:"./django.png"
+},
+
+{
+  id:2,
+  title:"HTML & CSS",
+  description:"TML (the Hypertext Markup Language) and CSS (Cascading Style Sheets) are two of the core technologies for building Web pages. HTML provides the structure of the page, CSS the (visual and aural) layout, for a variety of devices.",
+  img:"./html.png"
+},
+
+{
+  id:3,
+  title:"Git",
+  description:"Git is an open source version control system used by programmers to manage their code.",
+  img:"./git.png"
+},
+
+{
+  id:4,
+  title:"Javascript",
+  description:"JavaScript programming language is fun and flexible. It’s one of the core technologies of web development and can be used on both the front-end and the back-end.",
+  img:"./javascript.png"
+},
+
+
+{
+  id:5,
+  title:"JQuery",
+  description:"The jQuery library makes it easy to manipulate a page of HTML after it's displayed by the browser. It also provides tools that help you listen for a user to interact with your page, tools that help you create animations in your page",
+  img:"./jquery.png"
+},
+
+
+{
+  id:6,
+  title:"ReactJs",
+  description:" React is a popular JavaScript framework for creating front-end applications, such as user interfaces that allow users to interact with programs",
+  img:"./react.png"
+},
+
+
+{
+  id:7,
+  title:"C/C++",
+  description:"is an object oriented programming OOP language that is viewed by many as the best language for creating largescale applications",
+  img:"./cpp.png"
+},
+
+{
+  id:8,
+  title:"PHP & MySQL",
+  description:"PHP Data Objects or PDO provides you with a lightweight and consistent interface for accessing MySQL databases",
+  img:"./phpmysql.png"
+},
+
+{
+  id:8,
+  title:"cocos2dX",
+  description:"Cocos2d-x is an open-source and cross platform open source free 2D game engine for mobile game development known for its speed, stability, and easy of use",
+  img:"./cocos2d.png"
+},
+
 ]
