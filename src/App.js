@@ -5,7 +5,8 @@ import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import Testimonials from "./components/Testimonials";
+import Social from "./components/Social";
+//import Testimonials from "./components/Testimonials";
 
 export default function App() {
   return (
@@ -15,7 +16,7 @@ export default function App() {
       <Projects />
       <Skills />
       <Certifications />
-      <Testimonials />
+      <Social />
       <Contact />
     </main>
   );

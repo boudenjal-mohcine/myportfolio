@@ -61,7 +61,8 @@ export const skills = [
 
 export const languages = [
   "JavaScript",
-  "C/C++",
+  "C++",
+  "C",
   "Dart",
   "Python",
   "PHP",
@@ -76,7 +77,8 @@ export const frontEnd =[
   "Bootstrap",
   "TailwindCSS",
   "Flutter",
-  "JQuery"
+  "JQuery",
+  "Ajax"
 
 
 ]
@@ -125,7 +127,7 @@ export const certifications=[
 {
   id:2,
   title:"HTML & CSS",
-  description:"TML (the Hypertext Markup Language) and CSS (Cascading Style Sheets) are two of the core technologies for building Web pages. HTML provides the structure of the page, CSS the (visual and aural) layout, for a variety of devices.",
+  description:"HTML (the Hypertext Markup Language) and CSS (Cascading Style Sheets) are two of the core technologies for building Web pages. HTML provides the structure of the page, CSS the (visual and aural) layout, for a variety of devices.",
   img:"./html.png"
 },
 
@@ -147,7 +149,7 @@ export const certifications=[
 {
   id:5,
   title:"JQuery",
-  description:"The jQuery library makes it easy to manipulate a page of HTML after it's displayed by the browser. It also provides tools that help you listen for a user to interact with your page, tools that help you create animations in your page",
+  description:"JQuery library makes it easy to manipulate a page of HTML after it's displayed by the browser. It also provides tools that help you listen for a user to interact with your page, tools that help you create animations in your page",
   img:"./jquery.png"
 },
 
@@ -155,7 +157,7 @@ export const certifications=[
 {
   id:6,
   title:"ReactJs",
-  description:" React is a popular JavaScript framework for creating front-end applications, such as user interfaces that allow users to interact with programs",
+  description:"React is a popular JavaScript framework for creating front-end applications, such as user interfaces that allow users to interact with programs",
   img:"./react.png"
 },
 
@@ -163,7 +165,7 @@ export const certifications=[
 {
   id:7,
   title:"C/C++",
-  description:"is an object oriented programming OOP language that is viewed by many as the best language for creating largescale applications",
+  description:"C++ is an object oriented programming OOP language that is viewed by many as the best language for creating largescale applications",
   img:"./cpp.png"
 },
 
@@ -175,7 +177,7 @@ export const certifications=[
 },
 
 {
-  id:8,
+  id:9,
   title:"cocos2dX",
   description:"Cocos2d-x is an open-source and cross platform open source free 2D game engine for mobile game development known for its speed, stability, and easy of use",
   img:"./cocos2d.png"

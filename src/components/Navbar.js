@@ -12,7 +12,7 @@ const lastNameStyle={
 }
   return (
     <header className="bg-gray-800 md:sticky top-0 z-10">
-      <div className="container flex justify-center p-5 md:justify-start lg:justify-start">
+      <div className="container flex justify-center p-3 md:justify-start lg:justify-start">
         <a className="title-font font-medium text-white flex justify-center pr-4 md:justify-start lg:justify-start">
           <a href="#about" className="ml-3 text-3xl">
             <b>M</b><b style={lastNameStyle}>B</b>
@@ -60,7 +60,7 @@ const lastNameStyle={
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="#social"
+                  href="#socialmedia"
                 >
                   <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i>Social
                 </a>

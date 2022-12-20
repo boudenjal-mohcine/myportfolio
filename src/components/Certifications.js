@@ -33,18 +33,19 @@ export default function Certifications() {
       aria-current="true"
       aria-label="Slide 1"
     ></button>
-      {certifications.map((certification) => {
+      {certifications.map(function (certification) {
 
-        if(certification.id<9){
+        if (certification.id < 9) {
 
-       return  <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to={certification.id}
-          aria-label={"Slide " +certification.id++}
-          nothing={certification.id--}
-          ></button>  
+          return <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to={certification.id}
+            aria-label={"Slide " + certification.id++}
+            nothing={certification.id--}
+          ></button>
         }
+        return null;
       })}
   </div>
   <div class="carousel-inner relative w-full overflow-hidden">
