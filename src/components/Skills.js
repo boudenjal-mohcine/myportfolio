@@ -27,7 +27,7 @@ export default function Skills() {
         {/* Programmation languages */}
 
         <h1 className="sm:text-3xl text-2xl font-medium title-font text-white mb-4 flex flex-wrap justify-center lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-          Programmation&ensp;<span style={blue}>languages</span>
+          Programmation-<span style={blue}>Languages</span>
         </h1>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {languages.map((skill) => (

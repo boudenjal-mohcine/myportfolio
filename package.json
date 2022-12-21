@@ -9,7 +9,7 @@
     "emailjs-com": "^3.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "^1.1.5",
+    "react-scripts": "2.1.8",
     "tw-elements": "^1.0.0-alpha13"
   },
   "scripts": {
@@ -31,5 +31,11 @@
     "gh-pages": "^4.0.0",
     "postcss": "^7.0.36",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

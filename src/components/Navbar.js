@@ -1,9 +1,12 @@
 import React from "react";
 
 
+
 export default function Navbar({ fixed }) {
 
 const [navbarOpen, setNavbarOpen] = React.useState(false);
+
+const myCV='my_last_cv.pdf'
 
 const lastNameStyle={
 
@@ -71,6 +74,14 @@ const lastNameStyle={
                   href="#contact"
                 >
                   <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i>Contact
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                  href={myCV} download="Mohcine_Boudenjal_CV.pdf"
+                >
+                  <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i>CV
                 </a>
               </li>
             </ul>
